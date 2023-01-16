@@ -1,0 +1,25 @@
+Perfect for Generating Images close to the source image. Prompts can be modified
+
+I use batchImg2Img in Stable Difusion WebUI
+
+Models: Recomend using your favorite stable diffusion models and VAE.
+
+prompt:
+(((match input pose and proportions exactly))), the most beautiful artwork in the world,  professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski
+
+negative prompt:
+cartoon, 3d, ((disfigured)), ((bad art)), ((deformed)),((extra limbs)),((close up)),((b&w)), wierd colors, blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], extra fingers, mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions))), ((extra limbs)), cloned face, (((disfigured))), (((more than two breast))), out of frame, extra limbs, (bad anatomy), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), mutated hands, (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, ugly, tiling, poorly drawn hands, poorly drawn feet, poorly drawn face, out of frame, mutation, mutated, extra limbs, extra legs, extra arms, disfigured, deformed, cross-eye, body out of frame, blurry, bad art, bad anatomy, 3d render, (((naked)))
+
+Method: Euler A
+
+Sample Steps: 28
+
+CFG Scale: 18
+(8 lower bound)
+(18 upper bound)
+
+Denoising: 0.4
+(.3 lower bound)
+(.45 upper bound)
+
+Seed: 2893260992
