@@ -18,8 +18,8 @@ CFG Scale: 18
 (8 lower bound)
 (18 upper bound)
 
-Denoising: 0.4
-(.3 lower bound)
-(.45 upper bound)
+Denoising: 0.3
+(.2 lower bound)
+(.4 upper bound)
 
 Seed: 2893260992
