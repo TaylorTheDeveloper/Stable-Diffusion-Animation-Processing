@@ -2,7 +2,21 @@ import os
 import argparse
 
 def generateFolders(startIndex, endIndex, forceMakeDirectory=False):
-    for i in range(startIndex, endIndex + 1):
+    maxIndex = 999
+    minIndex = 0
+    includeUpperBound = 1
+    
+    # check that startIndex and endIndex are positive integers
+    if not (isinstance(startIndex, int) and isinstance(endIndex, int) and startIndex >= minIndex and endIndex > minIndex):
+        raise ValueError("startIndex and endIndex must be positive integers")
+    # check that startIndex and endIndex are less than or equal to maxIndex
+    if startIndex > maxIndex or endIndex > maxIndex:
+        raise ValueError(f"startIndex and endIndex must be less than or equal to {maxIndex}")
+    # check that startIndex is less than endIndex
+    if startIndex >= endIndex:
+        raise ValueError("startIndex must be less than endIndex")
+    
+    for i in range(startIndex, endIndex + includeUpperBound):
         folder_name = "{:03d}".format(i)
         if os.path.exists(folder_name):
             if forceMakeDirectory:

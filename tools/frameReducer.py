@@ -4,12 +4,20 @@ import shutil
 from typing import Optional
 
 def copy_images(src_dir: str, dest_dir: str, n: Optional[int] = 2):
+    minNValue = 1
+
+    # verify source path exists
     if not os.path.exists(src_dir):
         raise ValueError(f"Source directory {src_dir} does not exist.")
 
+    # verify destination path exists, create if not
     if not os.path.exists(dest_dir):
         os.makedirs(dest_dir)
         print(f"Destination directory {dest_dir} created.")
+    
+    # check that n is a positive integer
+    if not (isinstance(n, int) and n >= minNValue):
+        raise ValueError("n must be positive integer")
         
     print(f"Copy Started. N is {n}.")
 
