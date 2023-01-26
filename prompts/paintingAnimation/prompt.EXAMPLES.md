@@ -10,5 +10,12 @@
             <img src="../../documentation/images/paintingAnimation/003-wrongturnmv-2-crop.gif">
             <img src="../../documentation/images/paintingAnimation/0002.gif">
             <img src="../../documentation/images/paintingAnimation/0003.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0001.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0002.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0003.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0004.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0005.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0006.gif">
+            <img src="../../documentation/images/paintingAnimation/queen-0007.gif">
     </p>
 </center>
